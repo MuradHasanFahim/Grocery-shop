@@ -25,7 +25,7 @@ const SellerLayout = () => {
         }
         else
         {
-            toast.error(data.message)
+            toast.error(error.message)
             
         }
        }
